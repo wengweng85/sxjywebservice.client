@@ -21,7 +21,7 @@ import com.insigma.webservice.infostruct.enums.BusCode;
 public class ClientCall {
 	
 	//基于hessian的远程服务调用地址
-	private String HESSIAN_SERVICE_URL="http://127.0.0.1:8091/sxjsywebservice/hessianService";  
+	private String HESSIAN_SERVICE_URL="http://127.0.0.1:8080/sxjsywebservice/hessianService.hessian";  
 	
 
 	public List<Result> jk_001(List<Jk001Keyword> keywordlist) throws AppException {

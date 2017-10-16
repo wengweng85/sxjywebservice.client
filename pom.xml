@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.insigma</groupId>
-  <artifactId>sxjywebservice.client</artifactId>
+  <artifactId>sxjywebservice-client</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -16,12 +16,12 @@
 
   <dependencies>
     <!--自定义jar包 -->
-        <dependency>
-				<groupId>com.insigma</groupId>
-	            <artifactId>sxjywebservice.common</artifactId>
-	            <version>0.0.1-SNAPSHOT</version>
-	            <type>jar</type>
-		</dependency>
+      <dependency>
+		   <groupId>com.insigma</groupId>
+           <artifactId>sxjywebservice.common</artifactId>
+           <version>0.0.1-SNAPSHOT</version>
+           <type>jar</type>
+       </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
